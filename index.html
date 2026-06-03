@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <base href="https://cdn.jsdelivr.net/gh/thecheetoman/Rerun@main/">
+    <base href="https://cdn.jsdelivr.net/gh/thecheetoman/RerunWebPort@main/">
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | RERUN</title>
@@ -9,6 +9,23 @@
     <script>
       UnityLoader.instantiate("unityContainer", "Build/Rerun.json");
     </script>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background: #000;
+        overflow: hidden;
+      }
+
+      #unityContainer {
+        width: 100%;
+        min-height: 100%;
+        margin: 0;
+        border: none;
+        background: #000;
+      }
+    </style>
   </head>
   <body>
     <div id="unityContainer" style="width: 960px; height: 600px; margin: auto"></div>
