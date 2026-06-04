@@ -5,7 +5,7 @@
 "dataUrl": "Rerun.data.unityweb",
 "wasmCodeUrl": "Rerun.wasm.code.unityweb",
 "wasmFrameworkUrl": "Rerun.wasm.framework.unityweb",
-"graphicsAPI": ["WebGL 2.0"],
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
 "splashScreenStyle": "Dark",
 "backgroundColor": "#231F20",
